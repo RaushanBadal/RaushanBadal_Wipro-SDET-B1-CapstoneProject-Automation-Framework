@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="GUIElementsAutomationSuite">
+
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="GUI Elements Tests">
+
+        <classes>
+
+            <class name="testcases.TC01_TextFieldsTest"/>
+            <class name="testcases.TC02_RadioButtonTest"/>
+            <class name="testcases.TC03_CheckBoxTest"/>
+            <class name="testcases.TC04_DropDownTest"/>
+            <class name="testcases.TC05_DatePickerTest"/>
+            <class name="testcases.TC06_FileUploadTest"/>
+            <class name="testcases.TC07_SliderTest"/>
+            <class name="testcases.TC08_AlertTest"/>
+            <class name="testcases.TC09_MouseHoverTest"/>
+            <class name="testcases.TC10_DoubleClickTest"/>
+            <class name="testcases.TC11_DragAndDropTest"/>
+            <class name="testcases.TC12_FormTest"/>
+            <class name="testcases.TC13_ExcelDataDrivenTest"/>
+            <class name="testcases.TC14_DownloadFilesTest"/>
+            <class name="testcases.TC15_DynamicButtonTest"/>
+        
+
+        </classes>
+
+    </test>
+
+</suite>
